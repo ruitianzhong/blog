@@ -3,6 +3,7 @@ title: "记录一次DNS污染"
 date: 2023-08-03T21:03:00+08:00
 summary: "使用Github的时候发现了一次DNS污染，并对污染情况进行了探究"
 showtoc: false
+draft: true
 authors:
 - admin
 ---

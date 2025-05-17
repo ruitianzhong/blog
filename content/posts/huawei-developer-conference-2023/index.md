@@ -3,6 +3,7 @@ title: "2023华为开发者大会见闻"
 date: 2023-08-04T19:15:00+08:00
 showtoc: false
 summary: "HDC 2023"
+draft: true
 categories:
 - HDC
 authors:

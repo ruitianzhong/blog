@@ -21,8 +21,6 @@ categories:
 
 ## 概览
 
-![Featured Picture](./featured.jpg)
-
 在Web领域有一个比较常见的问题:浏览器地址栏输入网址后具体发生了什么？这个问题把网络、浏览器、HTTP、TCP等知识都给包含了，而且还能根据回答作进一步的追问。
 
 那么，在Linux中有没有类似的问题？我构造了一个类似的问题："在`Linux`终端中按下Ctrl-C后具体发生了什么？"，并对这个问题做出了一定程度上的解答。在我看来，这个问题同样涉及到不少方面：Linux的`pgid(Process Group ID)`、`sid(Session ID)`、Shell、相关系统调用、进程等内容都需要有所了解。
@@ -202,8 +200,6 @@ sid:2073 pid:2073 pgid:2073 after setsid
 很久以前，tty是有物理存在的，可以参考知乎上的[看得见摸得着的TTY——电传打字机](https://zhuanlan.zhihu.com/p/108206742)
 
 到了现代，已经没有物理上的tty了，往往是软件模拟出来的tty（和图形显示配合），如下图。为了降低理解的复杂性，作为tty的用户，我们仍然可以将tty看作是物理设备，而不用去管模拟的实现。如果要深究其中的原理，pts(4)是一个比较好的起点。
-
-![Pseudo terminal](pts.png)
 
 * 查看当前tty的命令
 

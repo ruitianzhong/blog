@@ -3,6 +3,7 @@ title: "从源代码构建桌面操作系统"
 date: 2023-05-14T15:19:00+08:00
 summary: "根据Linux From Scratch（LFS）从零构建操作系统"
 showtoc: false
+draft: true
 authors:
 - admin
 categories:

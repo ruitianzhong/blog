@@ -3,6 +3,7 @@ title: "如何建立个人网站"
 date: 2022-08-24T23:26:41+08:00
 summary: "建立个人网站的不同方式"
 showtoc: false
+draft: true
 categories:
 - how-to
 authors:
