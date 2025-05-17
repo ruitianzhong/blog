@@ -57,11 +57,11 @@ url = "https://github.com/ruitianzhong"
 # Main menu pages
 [[params.menu]]
 name = "home"
-url = "/"
+url = "/blog"
 
 [[params.menu]]
 name = "posts"
-url = "/posts"
+url = "/blog/posts"
 
 
 # Syntax highlight on code blocks
